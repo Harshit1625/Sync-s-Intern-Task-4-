@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Login</title>
+</head>
+<body>
+  <header>
+    <h1>E-LEARN</h1>
+    <h1><a href="/index.html">Home</a></h1>
+  </header>
+
+  <div class="section">
+    <form action="/index.html" method="post">
+        <h1>Sign Up</h1>
+        <input type="text" autocomplete="off" name="username" id="username" placeholder="Your Username"> <br>
+        <input type="password" name="password" id="password" placeholder="Your Password"> <br>
+        <h4 id="warning" style="font-style: italic; font-weight: 500;"></h4>
+        <button type="submit" onclick="signup()"><a href="/index.html">Sign Up</a></button>
+    </form>
+  </div>
+
+
+
+    <script src="signup.js"></script>
+</body>
+</html>

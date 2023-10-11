@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+</head>
+<body onload="myFunction()">
+    <header>
+        <h1>E-LEARN</h1>
+        <div class="h-links">
+            <a href="">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="account">
+            <h1><i class="fa-solid fa-circle-user"></i></h1>
+            <a href="/Login/login.html"><h2 id="userinfo" >Your Account</h2></a>
+        </div>
+    </header>
+
+    <div class="section-1">
+        <div class="sec-1-content">
+            <h1>Grow your skills to advance your career path.</h1>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam illo vero cumque magnam, sint cupiditate deserunt quibusdam!</h2>
+            <button> Get Started</button>
+        </div>
+        <img src="/Assets/images/header.svg" alt="" srcset="">
+    </div>
+
+    <div class="section-2" id="courses">
+        <div class="sec-2-content">
+            <h1>Categories</h1>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam illo vero cumque magnam, sint cupiditate deserunt quibusdam!</h2>
+            <button>Learn More</button>
+        </div>
+        <div class="category">
+            <div class="category-content">
+                <h2><i class="fa-brands fa-hive fa-fade" style="color: #ffffff;"></i></h2>
+                <h2>Blockchain</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim!</h3>
+            </div> 
+            <div class="category-content">
+                <h2><i class="fa-solid fa-palette fa-fade" style="color: #ffffff;"></i></h2>
+                <h2>Graphic Design</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim!</h3>
+            </div>   
+            <div class="category-content">
+                <h2><i class="fa-solid fa-coins fa-fade" style="color: #ffffff;"></i></h2>
+                <h2>Finance</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim!</h3>
+            </div>   
+            <div class="category-content">
+                <h2><i class="fa-solid fa-shop fa-fade" style="color: #fcfcfc;"></i></h2>
+                <h2>Marketing</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim!</h3>
+            </div>   
+            <div class="category-content">
+                <h2><i class="fa-solid fa-music fa-fade" style="color: #ffffff;"></i></h2>
+                <h2>Music</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim!</h3>
+            </div>   
+            <div class="category-content">
+                <h2><i class="fa-solid fa-briefcase fa-fade" style="color: #f7f7f8;"></i></h2>
+                <h2>Business</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, enim!</h3>
+            </div>          
+        </div>
+    </div>
+
+    <div class="section-3">
+        <h1>Our Popular Courses </h1>
+    </div>
+    <div class="sec3-content">
+        <div class="course c-hover">
+            <img src="/Assets/images/course1.jpg" alt="" srcset="">
+            <h1>Responsive Social Media Website UI Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eveniet.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="course2 c-hover">
+            <img src="/Assets/images/course2.jpg" alt="" srcset="">
+            <h1>Responsive Landing Page Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eveniet.</p>
+            <button>Learn More</button>
+        </div>
+        <div class="course3 c-hover">
+            <img src="/Assets/images/course3.jpg" alt="" srcset="">
+            <h1>Responsive Admin Dashboard UI Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eveniet.</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+    
+    <div class="section-4" id="contact">
+        <h1>Contact Us</h1>
+      <form action="/">
+        <input type="text" autocomplete="off" name="firstname" id="fname" , placeholder="First Name">
+        <input type="text" autocomplete="off" name="lastname" id="lname" , placeholder="Last Name">
+        <input type="email" autocomplete="off" name="email" id="email" , placeholder="Your Email Address">
+        <textarea name="subject" id="subject" placeholder="Your Message" cols="147" rows="5"></textarea> 
+        <h2>Your Image -</h2>  
+        <input type="file" name="file" id="uploadfile">
+        <button onclick="submitted()">Submit</button>
+      </form>
+      
+    </div>
+
+    <footer>
+        <h3>@2023 E-Learn All Rights Reserved.</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</html>
